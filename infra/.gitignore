@@ -8,6 +8,7 @@
 
 # 로컬 Terraform 디렉토리
 **/.terraform/*
+.terraform/
 
 # 충돌 로그 파일
 crash.log
