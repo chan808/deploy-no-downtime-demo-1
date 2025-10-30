@@ -4,7 +4,7 @@ FROM gradle:jdk-21-and-23-graal-jammy AS builder
 # 작업 디렉토리 설정
 WORKDIR /app
 
-# 소스 코드와 Gradle 래퍼 복사
+# 소스 코드와, Gradle 래퍼 복사
 COPY build.gradle.kts .
 COPY settings.gradle.kts .
 
